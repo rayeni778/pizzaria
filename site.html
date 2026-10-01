@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Conta - Sabor & Brasa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🍕 Sabor & Brasa</h1>
+        <nav>
+            <a href="index.html">
+                Cardápio
+            </a>
+            <a href="carrinho.html">
+                Carrinho
+            </a>
+        </nav>
+    </header>
+    <main class="area-cliente">
+        <h2>Minha conta</h2>
+        <p>
+            Olá! Confira seus dados abaixo.
+        </p>
+        <section class="dados">
+            <h3>Meus dados</h3>
+            <p>
+                <strong>Nome:</strong>
+                Seu Nome
+            </p>
+            <p>
+                <strong>E-mail:</strong>
+                seuemail@email.com
+            </p>
+            <p>
+                <strong>Telefone:</strong>
+                (00) 00000-0000
+            </p>
+        </section>
+        <section class="dados">
+            <h3>Endereço de entrega</h3>
+            <form action="carrinho.html">
+                <label>
+                    Rua:
+                </label>
+                <input
+                    type="text"
+                    placeholder="Nome da rua"
+                    required
+                >
+                <label>
+                    Número:
+                </label>
+                <input
+                    type="text"
+                    placeholder="Número"
+                    required
+                >
+                <label>
+                    Bairro:
+                </label>
+                <input
+                    type="text"
+                    placeholder="Bairro"
+                    required
+                >
+                <label>
+                    CEP:
+                </label>
+                <input
+                    type="text"
+                    placeholder="00000-000"
+                    required
+                >
+                <button
+                    type="submit"
+                    class="botao"
+                >
+                    Continuar
+                </button>
+            </form>
+        </section>
+        <a href="index.html" class="botao">
+            Voltar ao cardápio
+        </a>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

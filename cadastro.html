@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Sabor & Brasa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🍕 Sabor & Brasa</h1>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+    <main class="pagina-formulario">
+        <h2>Faça seu cadastro</h2>
+        <p>
+            Preencha seus dados para criar uma conta.
+        </p>
+        <form action="login.html">
+            <label>
+                Nome:
+            </label>
+            <input
+                type="text"
+                name="nome"
+                placeholder="Digite seu nome"
+                required
+            >
+            <label>
+                E-mail:
+            </label>
+            <input
+                type="email"
+                name="email"
+                placeholder="nome@email.com"
+                required
+            >
+            <label>
+                Telefone:
+            </label>
+            <input
+                type="tel"
+                name="telefone"
+                placeholder="(00) 00000-0000"
+                required
+            >
+            <label>
+                Senha:
+            </label>
+            <input
+                type="password"
+                name="senha"
+                placeholder="Digite uma senha"
+                required
+            >
+            <button type="submit" class="botao">
+                Cadastrar
+            </button>
+        </form>
+        <p>
+            Já possui uma conta?
+
+            <a href="login.html">
+                Faça login
+            </a>
+        </p>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
